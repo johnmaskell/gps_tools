@@ -11,7 +11,7 @@ optionals = {
     }
 
 kwargs = optionals
-filename = "../gpx/Track_2017-05-23 133531.gpx"
+filename = "Track_2017-05-23 133531.gpx"
 newscan = GPX(filename,**kwargs)
 lon, lat, elev, time = newscan.readGPX()
 newscan.gpx2KML()
