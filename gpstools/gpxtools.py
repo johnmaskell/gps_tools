@@ -1,3 +1,19 @@
+#****************************************************************************************************
+#
+# Author: John Maskell                                                                              
+# Date: 26/05/17
+# Description: Parse GPX file from GPS with methods to generate a kml route or an elevation profile
+# Classes:
+#     GPX - GPX file object
+#     Methods:
+#         readGPX - parse GPX file
+#         gpx2KML - convert GPS route to KML
+#         colour2KML - convert user colour to KML colour code
+#         elevProfile - plot elevation profile of GPS route
+#         getEPSG - get EPSG code from UTM region
+#         subSample - sub-sample GPS track
+#
+#****************************************************************************************************
 import os
 import matplotlib.pyplot as plt
 import numpy as np
